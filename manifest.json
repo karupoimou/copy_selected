@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "copy_selected",
+    "description": "copy_selected",
+    "version": "1.0",
+
+    "background" : {
+     "scripts" : ["background.js"]
+   },
+
+    "permissions" : [
+      "contextMenus",
+      "clipboardRead"
+    ],
+
+    "icons" : {
+      "48" : "icons/icon48.png"
+    }
+}
